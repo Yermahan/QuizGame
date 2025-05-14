@@ -1,3 +1,8 @@
+/**
+ * Represents a multiple-choice question.
+ * Inherits from BaseQuestion and allows selecting one correct answer from several options.
+ */
+
 public class TestQuestion extends BaseQuestion {
     private String[] options;
     private int correctOptionIndex;

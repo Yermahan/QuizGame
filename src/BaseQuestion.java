@@ -1,3 +1,8 @@
+/**
+ * Abstract base class for all types of quiz questions.
+ * Defines the common structure and behavior shared by all question types.
+ */
+
 public abstract class BaseQuestion {
     protected String questionText;
 

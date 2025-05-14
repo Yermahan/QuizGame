@@ -1,3 +1,8 @@
+/**
+ * Represents a fill-in-the-blank question.
+ * Inherits from BaseQuestion and checks if the user's typed answer matches the correct one.
+ */
+
 public class FillInQuestion extends BaseQuestion {
     private String correctAnswer;
 

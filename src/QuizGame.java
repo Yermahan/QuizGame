@@ -1,4 +1,8 @@
 import java.util.*;
+/**
+ * Main class that runs the quiz game.
+ * Loads questions using factories and interacts with the user via console.
+ */
 
 public class QuizGame {
     private List<BaseQuestion> questions;
@@ -9,6 +13,10 @@ public class QuizGame {
         scanner = new Scanner(System.in);
         loadQuestions();
     }
+    /**
+     * Loads a list of questions using various question factories.
+     * Questions are added to the game dynamically.
+     */
 
     private void loadQuestions() {
         List<QuestionFactory> factories = List.of(
@@ -39,8 +47,10 @@ public class QuizGame {
         }
     }
 
-
-
+    /**
+     * Starts the quiz game.
+     * Iterates through the questions, displays them, collects answers, and tracks the score.
+     */
     public void start() {
         int score = 0;
 

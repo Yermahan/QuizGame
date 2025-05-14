@@ -1,3 +1,8 @@
+/**
+ * Factory class for creating TrueFalseQuestion objects.
+ * Stores question text and correct boolean answer.
+ */
+
 public class TrueFalseQuestionFactory implements QuestionFactory {
     private String questionText;
     private boolean correctAnswer;

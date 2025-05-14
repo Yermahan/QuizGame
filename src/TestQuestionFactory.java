@@ -1,3 +1,8 @@
+/**
+ * Factory class for creating TestQuestion objects.
+ * Stores question data and returns a new TestQuestion when requested.
+ */
+
 public class TestQuestionFactory implements QuestionFactory {
     private String questionText;
     private String[] options;

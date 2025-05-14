@@ -1,3 +1,8 @@
+/**
+ * Represents a true/false question.
+ * Inherits from BaseQuestion and checks if the user's boolean answer is correct.
+ */
+
 public class TrueFalseQuestion extends BaseQuestion {
     private boolean correctAnswer;
 

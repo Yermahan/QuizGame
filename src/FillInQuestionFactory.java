@@ -1,3 +1,8 @@
+/**
+ * Factory class for creating FillInQuestion objects.
+ * Stores question text and correct answer to produce a new FillInQuestion.
+ */
+
 public class FillInQuestionFactory implements QuestionFactory {
     private String questionText;
     private String correctAnswer;
